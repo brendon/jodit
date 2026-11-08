@@ -15,6 +15,7 @@ import { Config } from 'jodit/config';
 
 import a from './items/a';
 import cells from './items/cells';
+import hr from './items/hr';
 import jodit from './items/iframe';
 import img from './items/img';
 import toolbar from './items/toolbar';
@@ -94,6 +95,7 @@ Config.prototype.popup = {
 	a,
 	img,
 	cells,
+	hr,
 	toolbar,
 	jodit,
 	iframe: jodit,
